@@ -11,7 +11,7 @@ Desensolvimento de um portal sobre informações de alimentos baseado na sazonal
 ## Integrantes
 
 * Amanda Ramires Guimarães Brito
-* Daniel Jonatan Silva dos Santos
+* Daniel Jonatan Silva Dos Santos
 * Leidirene Rodrigues da Silva Marques
 * Maria Eduarda Pinheiro
 * Mirian Santos de Oliveira
