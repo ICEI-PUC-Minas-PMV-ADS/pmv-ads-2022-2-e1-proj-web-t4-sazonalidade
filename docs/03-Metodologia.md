@@ -41,13 +41,13 @@ A equipe está organizada da seguinte maneira:
 
 ●	Equipe de Desenvolvimento:
 
-○	Leidirene
+  ○	Leidirene
 
-○	Mirian
+  ○	Mirian
 
 ●	Equipe de Design:
 
-○	Maria Eduarda
+  ○	Maria Eduarda
 
 ### Processo
 
