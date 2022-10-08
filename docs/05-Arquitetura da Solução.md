@@ -10,20 +10,26 @@ Diagrama que permite a modelagem física de um sistema, através da visão dos s
 
 Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+Os componentes que fazem parte da solução são apresentados nas Figura 1 e 2.
 
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+<img src="Figura1.png">
+<center>Figura 1 - Arquitetura da Solução</center>
+<img src="Figura2.png">
+<center>Figura 2 - Arquitetura da Solução</center>
+
+
+Link de acesso para visualização interativa: https://app.diagrams.net/#G1quexPNw6O9oC4Z5n7OYCdcjto-8aWsJs
 
 A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+- **Contexto** - Mostra as interações de forma macro sem muitos detalhes entre usuários e sistemas que fazem parte do software.  
+  - **Site(Sazoqualidade)** - É aquele que mostra as informações de forma simples e interativa para o usuário.
+  - **Site Externo (Ceasa)** - É aquele que fornece as informações para o site Sazoqualidade. 
+  - **Contêiner** - Mostra de forma mais detalhada que o contexto, no entanto ainda superficial.
+     - **Aplicação Web** - conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
+     - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
+        - **Receitas salvas** - seções de receitas salvas 
+        - **Preferidas** - lista de seções de favoritas mantidas para leitura e acesso posterior  
+   - **Sistema Externo (Hospedagem)** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 > **Links Úteis**:
 >
