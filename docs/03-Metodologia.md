@@ -64,20 +64,19 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ●	Concluído: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 
-O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL (https://trello.com/invite/b/ApkBRf8d/652a59f3e35e4f59c6d4ce0e1227f07a/planejamento-sazonalidade) e é apresentado, no estado atual, na Figura X. 
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL (https://trello.com/invite/b/ApkBRf8d/652a59f3e35e4f59c6d4ce0e1227f07a/planejamento-sazonalidade) e é apresentado, no estado atual, na figura abaixo:
+![image](https://user-images.githubusercontent.com/114542015/194769403-86c7bb24-b5fc-4804-9317-e2cc47ed20ca.png)
+ 
 
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
 - Ferramentas de comunicação: https://trello.com/invite/b/ApkBRf8d/652a59f3e35e4f59c6d4ce0e1227f07a/planejamento-sazonalidade
 - Ferramentas de desenho de tela: https://marvelapp.com/prototype/6607ee6/screen/88946136
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
+As ferramentas de comunicação utilizada permite a equipe verificar quais etapas foram concluidas e quais precisam fazer, além de permitir verificar se a equipe está caminhando junta. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
