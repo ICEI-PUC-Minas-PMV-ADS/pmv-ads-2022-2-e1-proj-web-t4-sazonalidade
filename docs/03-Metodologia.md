@@ -72,10 +72,11 @@ O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos
 
 As ferramentas empregadas no projeto são:
 
+- Ferramenta de documentação: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-sazonalidade/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md
 - Ferramentas de comunicação: https://trello.com/invite/b/ApkBRf8d/652a59f3e35e4f59c6d4ce0e1227f07a/planejamento-sazonalidade
 - Ferramentas de desenho de tela: https://marvelapp.com/prototype/6607ee6/screen/88946136
 
-As ferramentas de comunicação utilizada permite a equipe verificar quais etapas foram concluidas e quais precisam fazer, além de permitir verificar se a equipe está caminhando junta. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+A documentação se encontra no Github, ferramente de fácil acesso à toda equipe.
+A ferramenta de comunicação utilizada permite a equipe verificar quais etapas foram concluidas e quais precisam fazer, além de permitir verificar se a equipe está se desenvolvendo de forma conjunta. 
+Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
