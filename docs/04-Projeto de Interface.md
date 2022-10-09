@@ -6,7 +6,7 @@ foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o p
 uma identidade visual padronizada em todas as telas que são projetadas para funcionamento 
 em desktops e dispositivos móveis.
 
-Fluxo do Usuário
+**Fluxo do Usuário**
 
 O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuário pelas telas do 
 sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. 
