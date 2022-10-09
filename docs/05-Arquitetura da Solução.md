@@ -9,12 +9,12 @@ Os componentes que fazem parte da solução são apresentados nas figuras que se
 
 Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados nas Figuras 1 e 2.
+Os componentes que fazem parte da solução são apresentados nas abaixo:
 
-<img src="Figura1.png">
-<center>Figura 1 - Arquitetura da Solução</center>
-<img src="Figura2.png">
-<center>Figura 2 - Arquitetura da Solução</center>
+![image](https://user-images.githubusercontent.com/114542015/194774283-5dac5e64-1a6c-4385-b668-9ed8d7e9e517.png)
+![image](https://user-images.githubusercontent.com/114542015/194774293-8f22f626-35d7-40dc-a36e-2a7499a95ae4.png)
+
+
 
 
 Link de acesso para visualização interativa: https://app.diagrams.net/#G1quexPNw6O9oC4Z5n7OYCdcjto-8aWsJs
