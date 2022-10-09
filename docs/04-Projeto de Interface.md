@@ -12,7 +12,7 @@ O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuári
 sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. 
 Para visualizar o wireframe interativo, acesse o ambiente MarvelApp do projeto: https://marvelapp.com/prototype/6607ee6
 
-![image](https://user-images.githubusercontent.com/114542015/194772103-c1d375b8-f469-4ff5-97f6-9611a3622e35.png)
+![image](https://user-images.githubusercontent.com/114542015/194772574-0a88bf8f-9ed8-470d-b2ec-c0e7160225d2.png)
 
 
 ## Wireframes
