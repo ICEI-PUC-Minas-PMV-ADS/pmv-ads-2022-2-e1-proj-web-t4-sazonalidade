@@ -30,3 +30,8 @@ A solução implementada conta com os seguintes módulos:
         - **Preferidas** - lista de seções de favoritas mantidas para leitura e acesso posterior  
    - **Sistema Externo (Hospedagem)** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
+## Tecnologias Utilizadas
+
+## Hospedagem
+
+
