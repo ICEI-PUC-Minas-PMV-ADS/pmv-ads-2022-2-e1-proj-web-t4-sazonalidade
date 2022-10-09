@@ -105,9 +105,4 @@ A tela Resultado de pesquisa traz a relação de informações associadas ao tó
 <img src="img/pesquisar.png">
 
 
-## Tela - Login
-
-A tela Login fornece os meios para que o usuário assuma o controle de uma função, tarefa ou sistema.
-
-<img src="img/login.png">
 
