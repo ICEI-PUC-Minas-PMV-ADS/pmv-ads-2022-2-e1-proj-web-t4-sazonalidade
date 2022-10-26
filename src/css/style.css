@@ -1,0 +1,52 @@
+.container-fluid .row {
+    background-color:#F4FFCA;
+    
+   
+
+}
+.container-fluid .row .logo img{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+.menu{
+    background-color:#F4FFCA ;
+}
+section{
+    padding: 2% 2%;
+}
+
+ .main_content h2{
+    color: #FF914D;
+    text-align: center;
+
+    
+
+}
+section p{
+    color: #18543C;
+ }
+ body {
+    background-color: #F4FFCA;
+    
+
+ }
+.main_content .container_receitas{
+    
+    margin-top: 20px;
+    width: 100%;
+ }
+ .main_content .container_receitas .col-sm{
+
+    margin: 10px;
+ }
+ footer{
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color:#FF914D ;
+ }
+.card-img-overlay a{
+    color: #F4FFCA;
+}
