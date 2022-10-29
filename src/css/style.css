@@ -16,7 +16,7 @@ section{
     padding: 2% 2%;
 }
 
- .main_content h2{
+body h2{
     color: #FF914D;
     text-align: center;
 
@@ -36,9 +36,14 @@ section p{
     margin-top: 20px;
     width: 100%;
  }
- .main_content .container_receitas .col-sm{
+.container_receitas .col-sm{
 
-    margin: 10px;
+    margin: 20px;
+ }
+ .container_receitas .col-sm .card-img-overlay a{
+    line-height: 6px;
+    background-color: #F4FFCA;
+    color: #FF914D;
  }
  footer{
     margin-top: 10px;
@@ -49,4 +54,19 @@ section p{
  }
 .card-img-overlay a{
     color: #F4FFCA;
+
+}
+
+
+
+
+main .carousel-inner picture img{
+    width: 100%;
+    height:70vh;
+}
+
+main .carousel-inner .item{
+    height: 35vh;
+    width: 100%;
+    min-height: 200px;
 }
