@@ -37,7 +37,7 @@ Componente receitas por alimentos que dá acesso à página da lista de receitas
 Componente meus favoritos que leva o usuário para a tela de receitas preferidas.
 O bloco de Conteúdo traz a tabela de principais alimentos da safra atual (título, lista ordenada e preço) com a opção ver mais, que leva à tabela completa, além do componente receitas com alimentos da safra atual (nome da receita e foto do prato) que leva à receita do alimento.
 
-<img src="img/home.png">
+<img src="img/home_open.png">
 
 
 ## Tela - Receita por Alimentos
