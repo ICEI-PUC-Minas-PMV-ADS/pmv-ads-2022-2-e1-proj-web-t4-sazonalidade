@@ -44,14 +44,14 @@ O bloco de Conteúdo traz a tabela de principais alimentos da safra atual (títu
 
 A tela de receita por alimentos apresenta, no Bloco de Conteúdo, a lista de alimentos por ordem alfabética e suas respectivas receitas. O bloco de barra superior apresenta os mesmos elementos da Home-Page. 
 
-<img src="img/receitasporalimento.png">
+<img src="img/receitas_por_alimento.png">
 
 
 ## Tela - Safra atual
 
 A tela de Alimentos da safra atual, no Bloco de Conteúdo, contéma a lista de alimentos da safra atual bem como os seus respectivos preços. O bloco de barra superior apresenta os mesmos elementos da Home-Page. 
 
-<img src="img/safraatual.png">
+<img src="img/safra_atual.png">
 
 
 
@@ -59,42 +59,42 @@ A tela de Alimentos da safra atual, no Bloco de Conteúdo, contéma a lista de a
 
 A tela Alimentos  leva o usuário à lista de alimentos  por ordem alfabética.O bloco de barra superior apresenta os mesmos elementos da Home-Page. 
 
-<img src="img/alimentosordemalfabetica.png">
+<img src="img/alimentos_ordem.png">
 
 
 ## Tela- Informações nutricionais
 
 A tela Informações nutricionais apresenta informações com todos os detalhes da respectiva fruta/legumes e outras informações como manuseio e conservação.
 
-<img src="img/informaçoesnutricionais.png">
+<img src="img/inform_nutri.png">
 
 
 ## Tela- Meus favoritos
 
 A tela de Meus favoritos apresenta a relação de receitas salvas pelo usuário. Ao clicar em uma receita favorita, é disparada a tela de visualização de receita. O Bloco de Barra Superior apresenta os mesmos elementos da Home-Page. 
 
-<img src="img/meusfavoritos.png">
+<img src="img/meus_favoritos.png">
 
 
 ## Tela-O que é
 
 A tela O que é apresenta ao usuário uma breve explicação sobre alimentação levando em conta a sazonalidade e seus benefícios.
 
-<img src="img/oquee.png">
+<img src="img/o_que_e.png">
 
 
 ## Tela-Salvar receita favorita
 
 A tela que permite o salvamento de notícias preferidas é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o ícone coração na tela de receita do alimento. Nesta tela, a receita a ser salva é visualizada e o nome do alimento. Em seguida o usuário deve confirmar ou cancelar o salvamento. Na sequência, a tela é fechada, voltando para o ambiente anterior
 
-<img src="img/salvarfavorita.png">
+<img src="img/salvar_fav.png">
 
 
 ## Tela - Comentários
 
 Na tela que permite ao usuário comentar uma receita, deve-se informar o nome de quem está comentando e o texto do comentário. Esta tela é exibida na forma de uma janela modal. Em seguida, deve-se confirmar ou cancelar o salvamento do comentário. Na sequência, a tela é fechada voltando para o ambiente anterior.
 
-<img src="img/comentario.png">
+<img src="img/comment.png">
 
 
 
@@ -102,7 +102,7 @@ Na tela que permite ao usuário comentar uma receita, deve-se informar o nome de
 
 A tela Resultado de pesquisa traz a relação de informações associadas ao tópico informado. Este resultado é apresentado na Figura a seguir.
 
-<img src="img/pesquisar.png">
+<img src="img/result_pesquisa.png">
 
 
 
