@@ -126,3 +126,59 @@ Estrutura em HTML:
 Estrutura em CSS:
 ![image](https://user-images.githubusercontent.com/114542015/198910116-638c2cb0-8490-42b6-a66b-d6ad9820b698.png)
 
+
+
+
+<h1>Alimenstos da safra atual</h1><br>
+Tela alimentos da safra atual:<br>
+
+![image](http://127.0.0.1:5500/src/index.html)
+
+Requisitos Funcionais atendidos:<br>
+RF-01: O site deve apresentar página com frutas/legumes da estação.<br><br>
+
+Requisitos Não Funcionais atendidos:<br>
+RNF-03:	O site deve ter bom nível de contraste entre os elementos da tela em conformidade.<br> 
+RNF-07:	O site deve proporcionar a facilidade de aprendizagem.<br>
+RNF-08	O site deve proporcionar a facilidade de utilização.<br><br>
+
+Artefatos da funcionalidade:<br>
+
+
+Estrutura em HTML:
+
+![image](imagens2/tela1.png)
+![image](imagens2/tela2.png)
+![image](imagens2/tela3.png)
+
+Estrutura em CSS:
+
+![image](imagens2/css1.png)
+![image](imagens2/css2.png)
+![image](imagens2/css3.png)
+
+<h1>Pagina alimentos por ordem alfabética</h1><br>
+Tela da Pagina alimentos:<br>
+
+![image](http://127.0.0.1:5500/src/paginas/alimen_ordem_alf.html)
+
+Requisitos Funcionais atendidos:<br>
+RF-01: O site deve apresentar página com frutas/legumes da estação.<br><br>
+
+Requisitos Não Funcionais atendidos:<br>
+RNF-03:	O site deve ter bom nível de contraste entre os elementos da tela em conformidade.<br> 
+RNF-07:	O site deve proporcionar a facilidade de aprendizagem.<br>
+RNF-08	O site deve proporcionar a facilidade de utilização.<br><br>
+
+Artefatos da funcionalidade:<br>
+
+
+Estrutura em HTML:
+
+![image](imagens2/html1.png)
+
+Estrutura em CSS:
+
+![image]()
+
+
