@@ -91,3 +91,7 @@ main .carousel-inner .item{
     width: 100%;
     min-height: 200px;
 }
+
+main .carousel-inner picture img{
+    
+}
