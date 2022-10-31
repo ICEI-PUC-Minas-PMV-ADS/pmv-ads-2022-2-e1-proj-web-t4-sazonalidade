@@ -9,6 +9,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 <h1>Página de Receitas</h1><br>
 Tela de Receitas por alimento:<br>
+
 ![image](https://user-images.githubusercontent.com/114542015/198907452-1d71b17a-e403-4698-9fc6-cd8989491b01.png)
 
 Requisitos Funcionais atendidos:<br>
