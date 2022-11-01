@@ -201,10 +201,10 @@ Artefatos da funcionalidade:<br>
         <br><br>
 
 Estrutura em HTML:
-<img src="estrutura_html.png">
+<img src="img/estrutura_html.png">
 
 Estrutura em CSS:
-<img src="estrutura_css.png">
+<img src="img/estrutura_css.png">
 <br>
 
 
