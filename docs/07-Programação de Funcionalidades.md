@@ -200,10 +200,10 @@ Artefatos da funcionalidade:<br>
         logo.png
         <br><br>
 
-Estrutura em HTML:
+Estrutura em HTML:<br>
 <img src="img/estrutura_html.png">
 
-Estrutura em CSS:
+Estrutura em CSS:<br>
 <img src="img/estrtura_css.png">
 <br>
 
