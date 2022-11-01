@@ -183,7 +183,7 @@ Estrutura em CSS:
 <h1>Página de Informações Nutricionais</h1><br>
 Tela de Informações nutricionais:<br>
 
-<img src="funcionalidade.png">
+<img src="img/funcionalidade.png">
 
 Requisitos Funcionais atendidos:<br>
 RF-03: O site deve permitir ao usuário visualizar informações com todos os detalhes da respectiva fruta/legumes.<br><br>
