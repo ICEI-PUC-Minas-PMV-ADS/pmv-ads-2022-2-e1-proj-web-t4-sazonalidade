@@ -204,7 +204,7 @@ Estrutura em HTML:
 <img src="img/estrutura_html.png">
 
 Estrutura em CSS:
-<img src="img/estrutura_css.png">
+<img src="img/estrtura_css.png">
 <br>
 
 
