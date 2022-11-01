@@ -83,9 +83,15 @@ A tela O que é apresenta ao usuário uma breve explicação sobre alimentação
 <img src="img/o_que_e.png">
 
 
+## Tela- Receita Selecionada
+
+A tela Receita selecionada apresenta uma receita(ingredientes e modo de preparo) com um alimento específico.
+
+<img src="img/receita.png">
+
 ## Tela-Salvar receita favorita
 
-A tela que permite o salvamento de notícias preferidas é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o ícone coração na tela de receita do alimento. Nesta tela, a receita a ser salva é visualizada e o nome do alimento. Em seguida o usuário deve confirmar ou cancelar o salvamento. Na sequência, a tela é fechada, voltando para o ambiente anterior
+A tela que permite o salvamento de receitaa preferidas é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o ícone coração na tela de receita do alimento. Nesta tela, a receita a ser salva é visualizada e o nome do alimento. Em seguida o usuário deve confirmar ou cancelar o salvamento. Na sequência, a tela é fechada, voltando para o ambiente anterior
 
 <img src="img/salvar_fav.png">
 
