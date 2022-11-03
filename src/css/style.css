@@ -44,6 +44,9 @@ body h2{
     
 
 }
+body{
+    overflow-x: hidden;
+}
 section p{
     color: #18543C;
  }
