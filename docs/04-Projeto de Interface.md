@@ -68,14 +68,6 @@ A tela Informações nutricionais apresenta informações com todos os detalhes 
 
 <img src="img/inform_nutri_.png">
 
-
-## Tela- Meus favoritos
-
-A tela de Meus favoritos apresenta a relação de receitas salvas pelo usuário. Ao clicar em uma receita favorita, é disparada a tela de visualização de receita. O Bloco de Barra Superior apresenta os mesmos elementos da Home-Page. 
-
-<img src="img/meus_favoritos.png">
-
-
 ## Tela-O que é
 
 A tela O que é apresenta ao usuário uma breve explicação sobre alimentação levando em conta a sazonalidade e seus benefícios.
@@ -88,20 +80,6 @@ A tela O que é apresenta ao usuário uma breve explicação sobre alimentação
 A tela Receita selecionada apresenta uma receita(ingredientes e modo de preparo) com um alimento específico.
 
 <img src="img/receita_.png">
-
-## Tela-Salvar receita favorita
-
-A tela que permite o salvamento de receitaa preferidas é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o ícone coração na tela de receita do alimento. Nesta tela, a receita a ser salva é visualizada e o nome do alimento. Em seguida o usuário deve confirmar ou cancelar o salvamento. Na sequência, a tela é fechada, voltando para o ambiente anterior
-
-<img src="img/salvar_fav.png">
-
-
-## Tela - Comentários
-
-Na tela que permite ao usuário comentar uma receita, deve-se informar o nome de quem está comentando e o texto do comentário. Esta tela é exibida na forma de uma janela modal. Em seguida, deve-se confirmar ou cancelar o salvamento do comentário. Na sequência, a tela é fechada voltando para o ambiente anterior.
-
-<img src="img/comment.png">
-
 
 
 ## Tela - Resultado de Pesquisa
