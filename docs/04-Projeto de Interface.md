@@ -37,21 +37,21 @@ Componente receitas por alimentos que dá acesso à página da lista de receitas
 Componente meus favoritos que leva o usuário para a tela de receitas preferidas.
 O bloco de Conteúdo traz a tabela de principais alimentos da safra atual (título, lista ordenada e preço) com a opção ver mais, que leva à tabela completa, além do componente receitas com alimentos da safra atual (nome da receita e foto do prato) que leva à receita do alimento.
 
-<img src="img/home_open.png">
+<img src="img/home_open_.png">
 
 
 ## Tela - Receita por Alimentos
 
 A tela de receita por alimentos apresenta, no Bloco de Conteúdo, a lista de alimentos por ordem alfabética e suas respectivas receitas. O bloco de barra superior apresenta os mesmos elementos da Home-Page. 
 
-<img src="img/receitas_por_alimento.png">
+<img src="img/receitas_por_alimento_.png">
 
 
 ## Tela - Safra atual
 
 A tela de Alimentos da safra atual, no Bloco de Conteúdo, contéma a lista de alimentos da safra atual bem como os seus respectivos preços. O bloco de barra superior apresenta os mesmos elementos da Home-Page. 
 
-<img src="img/safra_atual.png">
+<img src="img/safra_atual_.png">
 
 
 
@@ -59,14 +59,14 @@ A tela de Alimentos da safra atual, no Bloco de Conteúdo, contéma a lista de a
 
 A tela Alimentos  leva o usuário à lista de alimentos  por ordem alfabética.O bloco de barra superior apresenta os mesmos elementos da Home-Page. 
 
-<img src="img/alimentos_ordem.png">
+<img src="img/alimentos_ordem_.png">
 
 
 ## Tela- Informações nutricionais
 
 A tela Informações nutricionais apresenta informações com todos os detalhes da respectiva fruta/legumes e outras informações como manuseio e conservação.
 
-<img src="img/inform_nutri.png">
+<img src="img/inform_nutri_.png">
 
 
 ## Tela- Meus favoritos
@@ -80,14 +80,14 @@ A tela de Meus favoritos apresenta a relação de receitas salvas pelo usuário.
 
 A tela O que é apresenta ao usuário uma breve explicação sobre alimentação levando em conta a sazonalidade e seus benefícios.
 
-<img src="img/o_que_e.png">
+<img src="img/o_que_e_.png">
 
 
 ## Tela- Receita Selecionada
 
 A tela Receita selecionada apresenta uma receita(ingredientes e modo de preparo) com um alimento específico.
 
-<img src="img/receita.png">
+<img src="img/receita_.png">
 
 ## Tela-Salvar receita favorita
 
@@ -108,7 +108,7 @@ Na tela que permite ao usuário comentar uma receita, deve-se informar o nome de
 
 A tela Resultado de pesquisa traz a relação de informações associadas ao tópico informado. Este resultado é apresentado na Figura a seguir.
 
-<img src="img/result_pesquisa.png">
+<img src="img/result_pesquisa_.png">
 
 
 
