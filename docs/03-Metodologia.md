@@ -1,6 +1,4 @@
-
 # Metodologia
-
 
 A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
@@ -25,7 +23,6 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
@@ -34,39 +31,36 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 
-●	Scrum Master: Amanda Brito
+● Scrum Master: Amanda Brito
 
-●	Product Owner: Daniel Jonatan
+● Product Owner: Daniel Jonatan
 
-●	Equipe de Desenvolvimento:
+● Equipe de Desenvolvimento:
 
-  ○	Leidirene
+○ Leidirene
 
-  ○	Mirian
+○ Mirian
 
-●	Equipe de Design:
+● Equipe de Design:
 
-  ○	Maria Eduarda
+○ Maria Eduarda
 
 ### Processo
 
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas:
 
-●	Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+● Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 
-●	A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+● A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
 
-●	Em andamento: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+● Em andamento: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 
-●	Revisão: Antes de mover para a lista de concluído, revisamos o que foi feito para ver se existe algum erro.
+● Revisão: Antes de mover para a lista de concluído, revisamos o que foi feito para ver se existe algum erro.
 
-●	Concluído: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
-
+● Concluído: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL (https://trello.com/invite/b/ApkBRf8d/652a59f3e35e4f59c6d4ce0e1227f07a/planejamento-sazonalidade) e é apresentado, no estado atual, na figura abaixo:
 ![image](https://user-images.githubusercontent.com/114542015/194769403-86c7bb24-b5fc-4804-9317-e2cc47ed20ca.png)
- 
-
 
 ### Ferramentas
 
@@ -77,6 +71,5 @@ As ferramentas empregadas no projeto são:
 - Ferramentas de desenho de tela: https://marvelapp.com/prototype/6607ee6/screen/88946136
 
 A documentação se encontra no Github, ferramente de fácil acesso à toda equipe.
-A ferramenta de comunicação utilizada permite a equipe verificar quais etapas foram concluidas e quais precisam fazer, além de permitir verificar se a equipe está se desenvolvendo de forma conjunta. 
+A ferramenta de comunicação utilizada permite a equipe verificar quais etapas foram concluidas e quais precisam fazer, além de permitir verificar se a equipe está se desenvolvendo de forma conjunta.
 Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
-

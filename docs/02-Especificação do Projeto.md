@@ -9,14 +9,11 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 ![image](https://user-images.githubusercontent.com/114542015/193112129-abee331a-5e50-4767-89e2-183885924550.png)
 ![image](https://user-images.githubusercontent.com/114542015/193112213-692b6930-b88a-4f8a-9a74-f0bbc437a7c7.png)
 
-
-
 ## Histórias de Usuários
 
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
 ![image](https://user-images.githubusercontent.com/114542015/193112599-bb64cb13-9aab-40af-9cef-e4cf9a80e66e.png)
-
 
 ## Requisitos
 
@@ -28,14 +25,11 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 ![image](https://user-images.githubusercontent.com/114542015/193112778-61fe7981-6fec-4c32-a4ca-7dfca4c882a7.png)
 
-
-
 ### Requisitos não Funcionais
 
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
 ![image](https://user-images.githubusercontent.com/114542015/193113028-402f83d7-318d-4efa-ba94-80441b39675b.png)
-
 
 ## Restrições
 

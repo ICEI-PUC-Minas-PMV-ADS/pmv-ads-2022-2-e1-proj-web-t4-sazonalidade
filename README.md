@@ -10,16 +10,15 @@ Desensolvimento de um portal sobre informações de alimentos baseado na sazonal
 
 ## Integrantes
 
-* Amanda Ramires Guimarães Brito
-* Daniel Jonatan Silva Dos Santos
-* Leidirene Rodrigues da Silva Marques
-* Maria Eduarda Pinheiro
-* Mirian Santos de Oliveira
-
+- Amanda Ramires Guimarães Brito
+- Daniel Jonatan Silva Dos Santos
+- Leidirene Rodrigues da Silva Marques
+- Maria Eduarda Pinheiro
+- Mirian Santos de Oliveira
 
 ## Orientador
 
-* Sandra Maria Rilveira
+- Sandra Maria Rilveira
 
 ## Instruções de utilização
 
@@ -43,12 +42,12 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+- Insira o endereço eletrônico público de acesso ao conteúdo publicado.
 
 # Armazenamento do Código-Fonte
 
-* <a href="src/README.md">Código Fonte</a>
+- <a href="src/README.md">Código Fonte</a>
 
 # Armazenamento da Apresentação
 
-* <a href="presentation/README.md">Apresentação da solução</a>
+- <a href="presentation/README.md">Apresentação da solução</a>
