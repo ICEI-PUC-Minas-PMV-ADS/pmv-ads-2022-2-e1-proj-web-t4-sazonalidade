@@ -1,0 +1,17 @@
+{
+  "name": "pmv-ads-2022-2-e1-proj-web-t4-sazonalidade-main",
+  "version": "1.0.0",
+  "description": "ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
