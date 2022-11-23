@@ -80,3 +80,20 @@ main .carousel-inner .item {
   width: 100%;
   min-height: 200px;
 }
+
+#selecionar{
+  
+  margin-right: 2%;
+
+ 
+}
+.btn{
+  padding:5%;
+}
+#alimento{
+  
+  padding: 2%;
+  border-color: #f07e37;
+  
+ 
+}

@@ -174,7 +174,7 @@ Tela de Informações nutricionais:<br>
 <img src="img/funcionalidade.png">
 
 Requisitos Funcionais atendidos:<br>
-RF-03: O site deve permitir ao usuário visualizar informações com todos os detalhes da respectiva fruta/legumes.<br><br>
+RF-03: O site deve permitir ao usuário visualizar informações com todos os detalhes da respectiva fruta/legumes.<br>
 RF04: O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma fruta específica.
 
 Requisitos Não Funcionais atendidos:<br>
