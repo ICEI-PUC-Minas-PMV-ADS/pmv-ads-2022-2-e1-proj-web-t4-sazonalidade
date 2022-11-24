@@ -20,9 +20,9 @@ Comente sobre as ferramentas de testes utilizadas.
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 
-**Plano de teste dos requisitos RF-7 e RF-8**
+## Plano de teste dos requisitos RF-07 e RF-,8
 
-**Requisito:** RF-7: O site deve conter informações de manuseio e conservação de alimentos.
+**Requisito:** RF-07: O site deve conter informações de manuseio e conservação de alimentos.
 
 **História/Contexto:** *Eu como* Maria de Fátima *desejo* saber como escolher e conservar os melhores alimentos disponíveis no mercado *para* evitar desperdícios.
 
@@ -34,8 +34,8 @@ Comente sobre as ferramentas de testes utilizadas.
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 
-![image](../docs/imagens2/planoTesteRF7Caso1Part1.png
-![image](../docs/imagens2/planoTesteRF7Caso1Part2.png
+![planoTesteRF7Caso1Part1](https://user-images.githubusercontent.com/114626298/203687106-62b57348-d0b0-4c70-9aa4-d104316063fd.png)
+![planoTesteRF7Caso1Part2](https://user-images.githubusercontent.com/114626298/203687119-2153f7de-db4c-465c-ac30-3b057e1f5d3e.png)
 
 
 **Caso de teste 2:**
@@ -44,8 +44,8 @@ Comente sobre as ferramentas de testes utilizadas.
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 
-![image](../docs/imagens2/planoTesteRF7Caso2Part1.png
-![image](../docs/imagens2/planoTesteRF7Caso2Part2.png
+![planoTesteRF7Caso2Part1](https://user-images.githubusercontent.com/114626298/203687147-056c5282-09cd-40dd-978d-5ee6b5ad71ab.png)
+![planoTesteRF7Caso2Part2](https://user-images.githubusercontent.com/114626298/203687163-b7f5ccdf-c748-49b5-b964-7ee78e2e8f8c.png)
 
 
 **Caso de teste 3:**
@@ -54,8 +54,8 @@ Comente sobre as ferramentas de testes utilizadas.
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 
-![image](../docs/imagens2/planoTesteRF7Caso3Part1.png
-![image](../docs/imagens2/planoTesteRF7Caso3Part2.png
+![planoTesteRF7Caso3Part1](https://user-images.githubusercontent.com/114626298/203687187-dc943352-8fea-48d3-a448-5afb918793e1.png)
+![planoTesteRF7Caso3Part2](https://user-images.githubusercontent.com/114626298/203687196-4160af6c-32c0-4a7a-ba4c-fdfda8cfe0dd.png)
 
 
 **Caso de teste 4:**
@@ -64,12 +64,12 @@ Comente sobre as ferramentas de testes utilizadas.
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 
-![image](../docs/imagens2/planoTesteRF7Caso4Part1.png
-![image](../docs/imagens2/planoTesteRF7Caso4Part2.png
+![planoTesteRF7Caso4Part1](https://user-images.githubusercontent.com/114626298/203687222-affc074d-04a8-4b51-87a2-830ae527675a.png)
+![planoTesteRF7Caso4Part2](https://user-images.githubusercontent.com/114626298/203687234-dca445b1-01eb-4db1-9528-ba536cae91d6.png)
 
 
 
-**Requisito:** RF-8: O site deve conter seção de receitas.
+**Requisito:** RF-08: O site deve conter seção de receitas.
 
 **História/Contexto:** *Eu como* Bruna Santos *desejo* aprender receitas de qualidade e com baixo custo *para* economizar sem prejudicar a dieta da família.
 
@@ -82,8 +82,8 @@ Comente sobre as ferramentas de testes utilizadas.
 **Saída esperada:** Carregar a página com todas receitas disponíveis no site e após seleção de uma receita especifica a amostragem de tal receita.
 **Saída real do sistema:** Carregar a página com todas receitas disponíveis no site e após seleção de uma receita especifica a amostragem de tal receita.
 
-![image](../docs/imagens2/planoTesteRF8Caso1Part1.png
-![image](../docs/imagens2/planoTesteRF8Caso1Part2.png
+![planoTesteRF8Caso1Part1](https://user-images.githubusercontent.com/114626298/203687263-de3b40b2-8dfd-42b0-9b7b-f14607b3b14a.png)
+![planoTesteRF8Caso1Part2](https://user-images.githubusercontent.com/114626298/203687269-4ac9c850-609c-4194-a573-04261ed63497.png)
 
 
 **Caso de teste 2:**
@@ -92,8 +92,8 @@ Comente sobre as ferramentas de testes utilizadas.
 **Saída esperada:** A página da receita selecionada.
 **Saída real do sistema:** A página da receita selecionada.
 
-![image](../docs/imagens2/planoTesteRF8Caso2Part1.png
-![image](../docs/imagens2/planoTesteRF8Caso2Part2.png
+![planoTesteRF8Caso2Part1](https://user-images.githubusercontent.com/114626298/203687291-66427473-dabf-477f-abc8-19fecad2951f.png)
+![planoTesteRF8Caso2Part2](https://user-images.githubusercontent.com/114626298/203687317-f8bf0ba8-34b3-4b11-ae63-fbe4c1b13881.png)
 
 
 **Caso de teste 3:**
@@ -102,7 +102,7 @@ Comente sobre as ferramentas de testes utilizadas.
 **Saída esperada:** A página da receita selecionada.
 **Saída real do sistema:** A página da receita selecionada.
 
-![image](../docs/imagens2/planoTesteRF8Caso3Part1.png
-![image](../docs/imagens2/planoTesteRF8Caso3Part2.png
+![planoTesteRF8Caso3Part1](https://user-images.githubusercontent.com/114626298/203687343-d9e871af-1b40-43a1-bc9f-73c123f15590.png)
+![planoTesteRF8Caso3Part2](https://user-images.githubusercontent.com/114626298/203687350-92b97530-921a-4f24-a998-a98137e0da78.png)
 
 
