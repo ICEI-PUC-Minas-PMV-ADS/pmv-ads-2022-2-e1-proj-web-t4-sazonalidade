@@ -171,7 +171,7 @@ Estrutura em CSS:
 <h1>Página de Informações Nutricionais</h1><br>
 Tela de Informações nutricionais:<br>
 
-<img src="img/funcionalidade.png">
+<img src="img/funcionalidade_03_tela.png">
 
 Requisitos Funcionais atendidos:<br>
 RF-03: O site deve permitir ao usuário visualizar informações com todos os detalhes da respectiva fruta/legumes.<br>
@@ -182,15 +182,29 @@ RNF-03: O site deve ter bom nível de contraste entre os elementos da tela em co
 RNF-07: O site deve proporcionar a facilidade de aprendizagem.<br>
 RNF-08 O site deve proporcionar a facilidade de utilização.<br><br>
 
-Artefatos da funcionalidade:<br>
+Artefatos da funcionalidade 03:<br>
 style.css<br>
 inf_nut_abobrinhaitaliana.html
 logo.png
 <br><br>
 
 Estrutura em HTML:<br>
-<img src="img/estrutura_html.png">
+<img src="img/estrutura_03_html.png">
 
 Estrutura em CSS:<br>
-<img src="img/estrtura_css.png">
-<br>
+<img src="img/estrutura_03_css.png">
+<br><br>
+
+Artefatos da funcionalidade 04:<br>
+style.css<br>
+inf_nut_abobrinhaitaliana.html
+logo.png
+<br><br>
+
+Estrutura em HTML:<br>
+<img src="img/estrutura_04_html.png">
+
+Estrutura em CSS:<br>
+<img src="img/estrutura_04_css.png">
+<br><br>
+
