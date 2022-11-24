@@ -20,48 +20,66 @@ Comente sobre as ferramentas de testes utilizadas.
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 
-## Plano de teste dos requisitos RF-07 e RF-,8
+## Plano de teste dos requisitos RF-07 e RF-08
+
 
 **Requisito:** RF-07: O site deve conter informações de manuseio e conservação de alimentos.
 
-**História/Contexto:** *Eu como* Maria de Fátima *desejo* saber como escolher e conservar os melhores alimentos disponíveis no mercado *para* evitar desperdícios.
+**História/Contexto:** 
+
+*Eu como* Maria de Fátima *desejo* saber como escolher e conservar os melhores alimentos disponíveis no mercado *para* evitar desperdícios.
 
 *Eu como* Maria José **desejo* saber como armazenar os alimentos que compro *para* não estragarem antes de serem usados.  
 
+
+
 **Caso de teste 1:**
+
 **Objetivo:** Testar a funcionalidade.
-**Execução:** Entrar na home. Selecionar alimento em carrossel. 
+
+**Execução:** Entrar na home. Selecionar alimento em carrossel.
+
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
+
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
+
 
 ![planoTesteRF7Caso1Part1](https://user-images.githubusercontent.com/114626298/203687106-62b57348-d0b0-4c70-9aa4-d104316063fd.png)
 ![planoTesteRF7Caso1Part2](https://user-images.githubusercontent.com/114626298/203687119-2153f7de-db4c-465c-ac30-3b057e1f5d3e.png)
 
 
+
 **Caso de teste 2:**
+
 **Objetivo:** Testar a funcionalidade.
-**Execução:** Entrar na aba de receitas. Clicar para saber mais informações nutricionais. 
-**Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
+**Execução:** Entrar na aba de receitas. Clicar para saber mais informações nutricionais.
+**Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
+
 
 ![planoTesteRF7Caso2Part1](https://user-images.githubusercontent.com/114626298/203687147-056c5282-09cd-40dd-978d-5ee6b5ad71ab.png)
 ![planoTesteRF7Caso2Part2](https://user-images.githubusercontent.com/114626298/203687163-b7f5ccdf-c748-49b5-b964-7ee78e2e8f8c.png)
 
 
+
 **Caso de teste 3:**
+
 **Objetivo:** Testar a funcionalidade.
-**Execução:** Entrar na aba de alimentos. Clicar em um dos alimentos apresentados. 
-**Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
+**Execução:** Entrar na aba de alimentos. Clicar em um dos alimentos apresentados.
+**Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
+
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
+
 
 ![planoTesteRF7Caso3Part1](https://user-images.githubusercontent.com/114626298/203687187-dc943352-8fea-48d3-a448-5afb918793e1.png)
 ![planoTesteRF7Caso3Part2](https://user-images.githubusercontent.com/114626298/203687196-4160af6c-32c0-4a7a-ba4c-fdfda8cfe0dd.png)
 
 
 **Caso de teste 4:**
+
 **Objetivo:** Testar a funcionalidade.
-**Execução:** Selecionar uma receita. Clicar para saber mais informações sobre o alimento principal da receita.  
-**Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
+**Execução:** Selecionar uma receita. Clicar para saber mais informações sobre o alimento principal da receita.
+**Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 
 ![planoTesteRF7Caso4Part1](https://user-images.githubusercontent.com/114626298/203687222-affc074d-04a8-4b51-87a2-830ae527675a.png)
@@ -77,18 +95,21 @@ Comente sobre as ferramentas de testes utilizadas.
 
 
 **Caso de teste 1:**
+
 **Objetivo:** Testar a funcionalidade.
 **Execução:** Selecionar a aba de receitas. Selecionar uma receita.
 **Saída esperada:** Carregar a página com todas receitas disponíveis no site e após seleção de uma receita especifica a amostragem de tal receita.
 **Saída real do sistema:** Carregar a página com todas receitas disponíveis no site e após seleção de uma receita especifica a amostragem de tal receita.
+
 
 ![planoTesteRF8Caso1Part1](https://user-images.githubusercontent.com/114626298/203687263-de3b40b2-8dfd-42b0-9b7b-f14607b3b14a.png)
 ![planoTesteRF8Caso1Part2](https://user-images.githubusercontent.com/114626298/203687269-4ac9c850-609c-4194-a573-04261ed63497.png)
 
 
 **Caso de teste 2:**
+
 **Objetivo:** Testar a funcionalidade.
-**Execução:** Selecionar uma receita específica que está disponível na home. 
+**Execução:** Selecionar uma receita específica que está disponível na home.
 **Saída esperada:** A página da receita selecionada.
 **Saída real do sistema:** A página da receita selecionada.
 
@@ -97,6 +118,7 @@ Comente sobre as ferramentas de testes utilizadas.
 
 
 **Caso de teste 3:**
+
 **Objetivo:** Testar a funcionalidade.
 **Execução:** Na aba de informações nutricionais de um alimento selecionado clicar em receita.
 **Saída esperada:** A página da receita selecionada.
