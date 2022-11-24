@@ -45,7 +45,9 @@ _Eu como_ Maria José \*_desejo_ saber como armazenar os alimentos que compro _p
 **Caso de teste 2:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Entrar na aba de receitas. Clicar para saber mais informações nutricionais.
+
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
 
@@ -55,7 +57,9 @@ _Eu como_ Maria José \*_desejo_ saber como armazenar os alimentos que compro _p
 **Caso de teste 3:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Entrar na aba de alimentos. Clicar em um dos alimentos apresentados.
+
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
 
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
@@ -66,7 +70,9 @@ _Eu como_ Maria José \*_desejo_ saber como armazenar os alimentos que compro _p
 **Caso de teste 4:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Selecionar uma receita. Clicar para saber mais informações sobre o alimento principal da receita.
+
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
 
@@ -82,8 +88,11 @@ _Eu como_ Maria José _desejo_ aprender receitas novas _para_ fazer um cardápio
 **Caso de teste 1:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Selecionar a aba de receitas. Selecionar uma receita.
+
 **Saída esperada:** Carregar a página com todas receitas disponíveis no site e após seleção de uma receita especifica a amostragem de tal receita.
+
 **Saída real do sistema:** Carregar a página com todas receitas disponíveis no site e após seleção de uma receita especifica a amostragem de tal receita.
 
 ![planoTesteRF8Caso1Part1](https://user-images.githubusercontent.com/114626298/203687263-de3b40b2-8dfd-42b0-9b7b-f14607b3b14a.png)
@@ -92,9 +101,13 @@ _Eu como_ Maria José _desejo_ aprender receitas novas _para_ fazer um cardápio
 **Caso de teste 2:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Selecionar uma receita específica que está disponível na home.
+
 **Saída esperada:** A página da receita selecionada.
+
 **Saída real do sistema:** A página da receita selecionada.
+
 
 ![planoTesteRF8Caso2Part1](https://user-images.githubusercontent.com/114626298/203687291-66427473-dabf-477f-abc8-19fecad2951f.png)
 ![planoTesteRF8Caso2Part2](https://user-images.githubusercontent.com/114626298/203687317-f8bf0ba8-34b3-4b11-ae63-fbe4c1b13881.png)
@@ -102,8 +115,11 @@ _Eu como_ Maria José _desejo_ aprender receitas novas _para_ fazer um cardápio
 **Caso de teste 3:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Na aba de informações nutricionais de um alimento selecionado clicar em receita.
+
 **Saída esperada:** A página da receita selecionada.
+
 **Saída real do sistema:** A página da receita selecionada.
 
 ![planoTesteRF8Caso3Part1](https://user-images.githubusercontent.com/114626298/203687343-d9e871af-1b40-43a1-bc9f-73c123f15590.png)
