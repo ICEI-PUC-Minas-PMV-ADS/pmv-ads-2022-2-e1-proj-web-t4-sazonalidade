@@ -90,33 +90,40 @@
               </a>
             </li>
           </ul>
-          <div id="selecao">
-          
-          </div>   
-          <div id="selecionar"> 
-              <select class="form-select" id="alimento">
-                <option value="0">Selecione o alimento</option>
-                <option value="1">Abobrinha Italiana</option>
-                <option value="2">Banana</option>
-                <option value="3">Pimentão</option>
-                <option value="4">Repolho roxo</option>
-              </select>
-            </div> 
-            <div id="botao">
-              <button onclick="redirecionar()" class="btn btn-primary btn-sm" >Pesquisar</button>
-            </div>
-            <script>
-              var valor = document.getElementById('alimento');
+          <div id="selecao"></div>
+          <div id="selecionar">
+            <select class="form-select" id="alimento">
+              <option value="0">Selecione o alimento</option>
+              <option value="1">Abobrinha Italiana</option>
+              <option value="2">Banana</option>
+              <option value="3">Pimentão</option>
+              <option value="4">Repolho roxo</option>
+            </select>
+          </div>
+          <div id="botao">
+            <button onclick="redirecionar()" class="btn btn-primary btn-sm">
+              Pesquisar
+            </button>
+          </div>
+          <script>
+            var valor = document.getElementById('alimento');
 
-function redirecionar() {
-  if(valor.value == "1") window.location.href = "../infor_nutricionais/inf_nut_abobrinhaitaliana.html";
-  else if(valor.value == "2") window.location.href = "../infor_nutricionais/inf_nut_banana.html";
-  else if(valor.value == "3") window.location.href = "../infor_nutricionais/inf_nut_pimentao.html";
-  else if(valor.value == "4") window.location.href = "../infor_nutricionais/inf_nut_repolhoroxo.html";
-  else window.location.href = "index.html";
-}
-            </script>
-          
+            function redirecionar() {
+              if (valor.value == '1')
+                window.location.href =
+                  '../infor_nutricionais/inf_nut_abobrinhaitaliana.html';
+              else if (valor.value == '2')
+                window.location.href =
+                  '../infor_nutricionais/inf_nut_banana.html';
+              else if (valor.value == '3')
+                window.location.href =
+                  '../infor_nutricionais/inf_nut_pimentao.html';
+              else if (valor.value == '4')
+                window.location.href =
+                  '../infor_nutricionais/inf_nut_repolhoroxo.html';
+              else window.location.href = 'index.html';
+            }
+          </script>
         </div>
       </nav>
     </div>

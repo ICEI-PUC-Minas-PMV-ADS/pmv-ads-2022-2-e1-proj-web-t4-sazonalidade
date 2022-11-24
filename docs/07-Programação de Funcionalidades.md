@@ -207,4 +207,3 @@ Estrutura em HTML:<br>
 Estrutura em CSS:<br>
 <img src="img/estrutura_04_css.png">
 <br><br>
-

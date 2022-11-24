@@ -37,7 +37,7 @@ A equipe está organizada da seguinte maneira:
 
 ● Equipe de Desenvolvimento:
 
-○ Leidirene
+○ Leidirene R. da S. Marques
 
 ○ Mirian
 
