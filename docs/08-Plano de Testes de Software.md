@@ -20,6 +20,7 @@ Comente sobre as ferramentas de testes utilizadas.
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 
+
 ## Plano de teste dos requisitos RF-07 e RF-08
 
 
@@ -29,7 +30,7 @@ Comente sobre as ferramentas de testes utilizadas.
 
 *Eu como* Maria de Fátima *desejo* saber como escolher e conservar os melhores alimentos disponíveis no mercado *para* evitar desperdícios.
 
-*Eu como* Maria José **desejo* saber como armazenar os alimentos que compro *para* não estragarem antes de serem usados.  
+*Eu como* Maria José *desejo* saber como armazenar os alimentos que compro *para* não estragarem antes de serem usados.  
 
 
 
@@ -52,8 +53,11 @@ Comente sobre as ferramentas de testes utilizadas.
 **Caso de teste 2:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Entrar na aba de receitas. Clicar para saber mais informações nutricionais.
+
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
+
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 
 
@@ -65,7 +69,9 @@ Comente sobre as ferramentas de testes utilizadas.
 **Caso de teste 3:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Entrar na aba de alimentos. Clicar em um dos alimentos apresentados.
+
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
 
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
@@ -75,11 +81,15 @@ Comente sobre as ferramentas de testes utilizadas.
 ![planoTesteRF7Caso3Part2](https://user-images.githubusercontent.com/114626298/203687196-4160af6c-32c0-4a7a-ba4c-fdfda8cfe0dd.png)
 
 
+
 **Caso de teste 4:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Selecionar uma receita. Clicar para saber mais informações sobre o alimento principal da receita.
+
 **Saída esperada:** A página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.
+
 **Saída real do sistema:** Página de informações nutricionais onde contém informações sobre armazenamento e manuseio de determinado alimento.  
 
 ![planoTesteRF7Caso4Part1](https://user-images.githubusercontent.com/114626298/203687222-affc074d-04a8-4b51-87a2-830ae527675a.png)
@@ -97,8 +107,11 @@ Comente sobre as ferramentas de testes utilizadas.
 **Caso de teste 1:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Selecionar a aba de receitas. Selecionar uma receita.
+
 **Saída esperada:** Carregar a página com todas receitas disponíveis no site e após seleção de uma receita especifica a amostragem de tal receita.
+
 **Saída real do sistema:** Carregar a página com todas receitas disponíveis no site e após seleção de uma receita especifica a amostragem de tal receita.
 
 
@@ -106,22 +119,31 @@ Comente sobre as ferramentas de testes utilizadas.
 ![planoTesteRF8Caso1Part2](https://user-images.githubusercontent.com/114626298/203687269-4ac9c850-609c-4194-a573-04261ed63497.png)
 
 
+
 **Caso de teste 2:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Selecionar uma receita específica que está disponível na home.
+
 **Saída esperada:** A página da receita selecionada.
+
 **Saída real do sistema:** A página da receita selecionada.
+
 
 ![planoTesteRF8Caso2Part1](https://user-images.githubusercontent.com/114626298/203687291-66427473-dabf-477f-abc8-19fecad2951f.png)
 ![planoTesteRF8Caso2Part2](https://user-images.githubusercontent.com/114626298/203687317-f8bf0ba8-34b3-4b11-ae63-fbe4c1b13881.png)
 
 
+
 **Caso de teste 3:**
 
 **Objetivo:** Testar a funcionalidade.
+
 **Execução:** Na aba de informações nutricionais de um alimento selecionado clicar em receita.
+
 **Saída esperada:** A página da receita selecionada.
+
 **Saída real do sistema:** A página da receita selecionada.
 
 ![planoTesteRF8Caso3Part1](https://user-images.githubusercontent.com/114626298/203687343-d9e871af-1b40-43a1-bc9f-73c123f15590.png)
