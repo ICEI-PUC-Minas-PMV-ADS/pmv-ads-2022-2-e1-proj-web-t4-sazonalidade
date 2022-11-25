@@ -22,50 +22,8 @@ Comente sobre as ferramentas de testes utilizadas.
 
 ## Plano de teste dos requisitos RF-01 e RF-02
 
-**Requisito:** RF-01:O site deve apresentar página com as frutas da estação.
-
-**História/Contexto:**
-
-_Eu como_ Omar Santos _desejo_ saber quais frutas estão com melhor qualidade, através da noção de sazonalidade.
-
-
-**Caso de teste 1:**
-
-**Objetivo:** Verificar se a página com as principais frutas da estação carrega completamente
-
-**Execução:** Entrar na home e visualizar a página principal.
-
-**Saída esperada:** A página principal deve apresentar os principais alimentos da safra atual.
-
-**Saída real do sistema:** A página principal apresenta uma transição com os principais alimentos da safra atual bem como um link para acessar a tabela com todos os alimentos da safra atual.
-
-
-**Caso de teste 2:**
-
-**Objetivo:** Verificar se o link para acessar a tabela com todos os alimentos da safra atual funciona e página com todas os alimentos da estação carrega completamente.
-
-**Execução:** Entrar na home e a acessar o link: **Veja a tabela completa com todos os alimentos da safra atual.**
-
-**Saída esperada:** O link deve direcionar para a página de safra atual e apresentar uma tabela com todas as frutas da estação.
-**Saída real do sistema:** O link direciona para  a página de safra atual que  carrega completamente, apresentando uma tabela com todas os alimentos da estação.
-
-
-**Requisito:** RF-02:O site deve informar as fontes de pesquisa de cada item ali publicado.
-
-**História/Contexto:**
-
-_Eu como_ Omar Santos _desejo_ um site confiável com fontes de pesquisas.
-
-**Caso de teste 1:**
-
-**Objetivo:** Verificar se a página que contém as fontes de pesquisa de cada item ali publicado carrega completamente.
-
-**Execução:** Entrar na home e no campo de busca selecionar um alimento. Verificar na páginas o tópico **Fonte**.
-
-**Saída esperada:** A página de informações nutricionais deve carregar completamente e apresentar  as fontes de pesquisa de cada item ali publicado.
-
-**Saída real do sistema:** 
-
+<img src="img/teste1.png">
+<img src="img/teste2.png">
 
 ## Plano de teste dos requisitos RF-07 e RF-08
 
