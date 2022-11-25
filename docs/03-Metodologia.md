@@ -37,13 +37,11 @@ A equipe está organizada da seguinte maneira:
 
 ● Equipe de Desenvolvimento:
 
-○ Leidirene R. da S. Marques
-
 ○ Mirian
 
 ● Equipe de Design:
 
-○ Maria Eduarda
+○ Leidirene R. da S. Marques
 
 ### Processo
 
