@@ -13,7 +13,6 @@ Desensolvimento de um portal sobre informações de alimentos baseado na sazonal
 - Amanda Ramires Guimarães Brito
 - Daniel Jonatan Silva Dos Santos
 - Leidirene Rodrigues da Silva Marques
-- Maria Eduarda Pinheiro
 - Mirian Santos de Oliveira
 
 ## Orientador
