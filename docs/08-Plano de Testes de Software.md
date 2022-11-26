@@ -16,6 +16,14 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 <img src="img/teste2.png">
 <img src="img/teste3.png">
 
+## Plano de teste dos requisitos RF-01 e RF-02
+
+![image](https://user-images.githubusercontent.com/114542015/204111130-7c973a1a-f39b-4fec-af01-03e7526e9702.png)
+
+![image](https://user-images.githubusercontent.com/114542015/204111145-b2b4013a-11a5-4eb6-8bf3-ecc3039bfa74.png)
+
+
+
 ## Plano de teste dos requisitos RF-07 e RF-08
 
 **Requisito:** RF-07: O site deve conter informações de manuseio e conservação de alimentos.
