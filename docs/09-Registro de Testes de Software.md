@@ -11,3 +11,15 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 > **Links Úteis**:
 >
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+
+## Registro de Testes dos requisitos RF-01 e RF-02
+
+###CT-01-Visualizar alimentos da estação
+Conforme apresentado abaixo, a página principal carrega completamente, apresentando uma transição com os principais alimentos da safra da estação.
+<img src="img/rf_01.png">
+<br><br>
+
+###CT-02-Visualizar tabela com todos os alimentos da estação
+Conforme apresentado abaixo  pelas duas figuras abaixo, a página principal apresenta um link para acessar a tabela com todos os alimentos da safra atual. O link direciona para a página de safra atual, que carrega completamente.
+<img src="img/rf_01_3.png">
+<img src="img/rf_01_1.png">
