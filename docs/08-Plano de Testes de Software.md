@@ -16,7 +16,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 <img src="img/teste2.png">
 <img src="img/teste3.png">
 
-## Plano de teste dos requisitos RF-01 e RF-02
+## Plano de teste dos requisitos RF-03 e RF-04
 
 ![image](https://user-images.githubusercontent.com/114542015/204111130-7c973a1a-f39b-4fec-af01-03e7526e9702.png)
 
