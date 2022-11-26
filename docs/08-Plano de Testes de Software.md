@@ -14,6 +14,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 <img src="img/teste1.png">
 <img src="img/teste2.png">
+<img src="img/teste3.png">
 
 ## Plano de teste dos requisitos RF-07 e RF-08
 
