@@ -129,3 +129,7 @@ _Eu como_ Maria José _desejo_ aprender receitas novas _para_ fazer um cardápio
 
 ![planoTesteRF8Caso3Part1](https://user-images.githubusercontent.com/114626298/203687343-d9e871af-1b40-43a1-bc9f-73c123f15590.png)
 ![planoTesteRF8Caso3Part2](https://user-images.githubusercontent.com/114626298/203687350-92b97530-921a-4f24-a998-a98137e0da78.png)
+
+## Plano de teste dos requisitos RF-09 e RF-10
+<img src="img/caso1.png">
+<img src="img/caso2.png">

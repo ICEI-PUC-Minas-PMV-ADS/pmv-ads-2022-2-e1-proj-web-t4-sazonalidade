@@ -51,3 +51,14 @@ Conforme apresentado na imagem abaixo, após selecionar um alimento no filtro de
 ![image](https://user-images.githubusercontent.com/114542015/204111640-8b59b21b-3438-4ca8-9185-343c0941beb8.png)
 
 
+## Registro de Testes do RF-09
+**CT-01** Visualizar informação de estimativa de custo dos alimentos.<br><br>
+Conforme apresentado na imagem abaixo, o site apresenta as infoirmações de estimativa de custo dos alimentos
+<img src="img/rf_o2_2.png">
+
+
+
+## Registro de Testes do RF-10
+**CT-02** Visualizar informação de indicação de frutas similares.<br><br>
+Conforme apresentado na imagem abaixo, o site apresenta as infoirmações indicação de frutas similares.
+<img src="img/rf_o2_2.png">
