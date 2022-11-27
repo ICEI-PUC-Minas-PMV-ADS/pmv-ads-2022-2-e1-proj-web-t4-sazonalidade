@@ -12,9 +12,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 ## Plano de teste dos requisitos RF-01 e RF-02
 
-<img src="img/teste1.png">
-<img src="img/teste2.png">
-<img src="img/teste3.png">
+<img src="img/ct_01.png">
+<img src="img/ct_02.png">
+<img src="img/ct_03.png">
 
 ## Plano de teste dos requisitos RF-03 e RF-04
 
