@@ -1,264 +1,243 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../../css/style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sazoqualidade</title>
-  </head>
 
-  <body>
-    <!--logo-->
-    <div class="logo">
-      <div class="container-fluid">
-        <div class="row justify-content-center">
-          <div class="navBg me-5 d-flex justify-content-center">
-            <a class="logo" href=""
-              ><img
-                src="../../imagens/logo.png"
-                title="logo"
-                alt="logo_saqualidade"
-            /></a>
-          </div>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sazoqualidade</title>
+</head>
+
+<body>
+  <!--logo-->
+  <div class="logo">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="navBg me-5 d-flex justify-content-center">
+          <a class="logo" href=""><img src="../../imagens/logo.png" title="logo" alt="logo_saqualidade" /></a>
         </div>
       </div>
     </div>
-    <!--logo-->
+  </div>
+  <!--logo-->
 
-    <!--menu-->
-    <div class="menu">
-      <nav
-        class="navbar navbar-expand-lg navbar-dark"
-        style="background-color: #ff914d"
-      >
-        <a class="navbar-brand" href="#">
-          <div style="vertical-align: inherit">
-            <div style="vertical-align: inherit"></div>
-          </div>
-        </a>
-        <button
-          class="navbar-toggler collapsed"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarColor01"
-          aria-controls="navbarColor01"
-          aria-expanded="false"
-          aria-label="Alternar de navegação"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarColor01">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="../../index.html">
-                <div style="vertical-align: inherit">
-                  <div style="vertical-align: inherit">Home</div>
-                </div>
-                <span class="sr-only">
-                  <div style="vertical-align: inherit">
-                    <div style="vertical-align: inherit"></div>
-                  </div>
-                </span>
-              </a>
-            </li>
-            <li class="nav-item active" a>
-              <a class="nav-link" href="../oquee.html">
-                <div style="vertical-align: inherit">
-                  <div style="vertical-align: inherit">O que é?</div>
-                </div>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../alimen_ordem_alf.html">
-                <div style="vertical-align: inherit">
-                  <div style="vertical-align: inherit">Alimentos</div>
-                </div>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../receita_por_alimento.html">
-                <div style="vertical-align: inherit">
-                  <div style="vertical-align: inherit">Receitas</div>
-                </div>
-              </a>
-            </li>
-          </ul>
-          <div id="selecao"></div>
-          <div id="selecionar">
-            <select class="form-select" id="alimento">
-              <option value="0">Selecione o alimento</option>
-              <option value="1">Abobrinha Italiana</option>
-              <option value="2">Banana</option>
-              <option value="3">Pimentão</option>
-              <option value="4">Repolho roxo</option>
-            </select>
-          </div>
-          <div id="botao">
-            <button onclick="redirecionar()" class="btn btn-primary btn-sm">
-              Pesquisar
-            </button>
-          </div>
-          <script>
-            var valor = document.getElementById('alimento');
-
-            function redirecionar() {
-              if (valor.value == '1')
-                window.location.href = 'inf_nut_abobrinhaitaliana.html';
-              else if (valor.value == '2')
-                window.location.href = 'inf_nut_banana.html';
-              else if (valor.value == '3')
-                window.location.href = 'inf_nut_pimentao.html';
-              else if (valor.value == '4')
-                window.location.href = 'inf_nut_repolhoroxo.html';
-              else window.location.href = 'inf_nut_repolhoroxo.html';
-            }
-          </script>
+  <!--menu-->
+  <div class="menu">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ff914d">
+      <a class="navbar-brand" href="#">
+        <div style="vertical-align: inherit">
+          <div style="vertical-align: inherit"></div>
         </div>
-      </nav>
-    </div>
-    <!--menu-->
-    <!--Informações nutricionais-->
-    <div class="container">
-      <h2>Informações Nutricionais</h2>
-      <br />
-      <h5>Produto: Repolho roxo</h5>
-      <br />
-      <h6>Descrição</h6>
-      <p>
-        Originário da Europa e da Ásia Ocidental e conhecido pelo homem há cerca
-        de 5000 anos, o repolho (Brassica oleracea) é uma hortaliça de enorme
-        aceitação no mercado da região centro-sul do país. A planta apresenta
-        folhas formadas por limbo arredondado e grande, com pecíolo curto e bem
-        destacado. Há uma nítida superposição das folhas centrais, formando-se
-        uma ?cabeça?, muito compacta. O aspecto é variável: redondo, achatado,
-        cônico, branco ou roxo, liso ou crespo.
-      </p>
-      <h6>Como Comprar</h6>
-      <p>
-        Geralmente dá-se preferência aos repolhos de cor verde-clara, pesando
-        entre 1,0 e 2,0 kg.
-      </p>
-      <h6>Como Conservar</h6>
-      <p>
-        À temperatura ambiente conservam-se por, no máximo, quatro a cinco
-        dias.<br />
-        Na gaveta da geladeira, embalados em sacos de plástico transparente,
-        conservam-se por até dez dias.<br />
-        As melhores condições de armazenamento são entre 0º e 3º C e sob umidade
-        relativa do ar de 90%.<br />
-        Nestas condições, as cabeças conservam-se por várias semanas.
-      </p>
-      <h6>Como Consumir</h6>
-      <p>
-        Deve ser consumido preferencialmente cru. Ao ser cozido, ocorrem perdas
-        de vitaminas e, se comido em excesso, pode provocar gases.
-      </p>
-      <h6>Dicas</h6>
-      <p>
-        Para o seu repolho-roxo não perder a cor ou a textura na hora de
-        refogar, coloque uma colher de sopa de suco de limão ou vinagre na
-        porção a ser refogada. Depois de refogado, não demore muito para
-        retirá-lo do fogo para que ele não murche. Isso vai trazer um aspecto
-        mais vivo para a cor do seu ingrediente.
-      </p>
-      <h6>Propriedades Nutricionais</h6>
-      <p>
-        Rico em nutrientes, o pimentão é fonte de vitaminas A, C, vitaminas do
-        complexo B e minerais, com propriedades antioxidantes que combatem os
-        radicais livres e previnem o envelhecimento precoce. Pode ser consumido
-        cru, assado ou cozido, em diversos pratos quentes e saladas.
-      </p>
-      <h6>Tabela de Informações nutricionais</h6>
-      <p>Porção 88g (1/2 xícara de chá</p>
-      <div class="container mt-3">
-        <table class="table-bordered table-sm table-warning">
-          <thead>
-            <tr>
-              <th>Descrição</th>
-              <th>Quantidade por Porção</th>
-              <th>% VD (*)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Valor Energético</td>
-              <td>15kcal = 63kJ</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>Carboidratos</td>
-              <td>3g</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>Proteínas</td>
-              <td>1g</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>Gorduras totais</td>
-              <td>0g</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td>Gorduras saturadas</td>
-              <td>0g</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td>Gorduras trans</td>
-              <td>0g</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td>Fibra alimentar</td>
-              <td>2g</td>
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>Sódio</td>
-              <td>0mg</td>
-              <td>0</td>
-            </tr>
-          </tbody>
-        </table>
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Alternar de navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../../index.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">Home</div>
+              </div>
+              <span class="sr-only">
+                <div style="vertical-align: inherit">
+                  <div style="vertical-align: inherit"></div>
+                </div>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item active" a>
+            <a class="nav-link" href="../oquee.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">O que é?</div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../alimen_ordem_alf.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">Alimentos</div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../receita_por_alimento.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">Receitas</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div id="selecao"></div>
+        <div id="selecionar">
+          <select class="form-select" id="alimento">
+            <option value="0">Selecione o alimento</option>
+            <option value="1">Abobrinha Italiana</option>
+            <option value="2">Banana</option>
+            <option value="3">Pimentão</option>
+            <option value="4">Repolho roxo</option>
+          </select>
+        </div>
+        <div id="botao">
+          <button onclick="redirecionar()" class="btn btn-primary btn-sm">
+            Pesquisar
+          </button>
+        </div>
+        <script>
+          var valor = document.getElementById('alimento');
+
+          function redirecionar() {
+            if (valor.value == '1')
+              window.location.href = 'inf_nut_abobrinhaitaliana.html';
+            else if (valor.value == '2')
+              window.location.href = 'inf_nut_banana.html';
+            else if (valor.value == '3')
+              window.location.href = 'inf_nut_pimentao.html';
+            else if (valor.value == '4')
+              window.location.href = 'inf_nut_repolhoroxo.html';
+            else window.location.href = 'inf_nut_repolhoroxo.html';
+          }
+        </script>
       </div>
-      <p></p>
-      <h6>Receita</h6>
-      <br />
-      <p>
-        <a href="../receitas/receita_salada_repolho.html">Salada de repolho</a>
-      </p>
-      <h6>Precos cotados</h6>
-      <p>Últimos Preços Cotados: <strong>1,50(R$/KG)</strong></p>
-      <h6>Frutas e vegetais similares</h6>
-      <p>Rabanete.</p>
+    </nav>
+  </div>
+  <!--menu-->
+  <!--Informações nutricionais-->
+  <div class="container">
+    <h2>Informações Nutricionais</h2>
+    <br />
+    <h5>Produto: Repolho roxo</h5>
+    <br />
+    <h6>Descrição</h6>
+    <p>
+      Originário da Europa e da Ásia Ocidental e conhecido pelo homem há cerca
+      de 5000 anos, o repolho (Brassica oleracea) é uma hortaliça de enorme
+      aceitação no mercado da região centro-sul do país. A planta apresenta
+      folhas formadas por limbo arredondado e grande, com pecíolo curto e bem
+      destacado. Há uma nítida superposição das folhas centrais, formando-se
+      uma ?cabeça?, muito compacta. O aspecto é variável: redondo, achatado,
+      cônico, branco ou roxo, liso ou crespo.
+    </p>
+    <h6>Como Comprar</h6>
+    <p>
+      Geralmente dá-se preferência aos repolhos de cor verde-clara, pesando
+      entre 1,0 e 2,0 kg.
+    </p>
+    <h6>Como Conservar</h6>
+    <p>
+      À temperatura ambiente conservam-se por, no máximo, quatro a cinco
+      dias.<br />
+      Na gaveta da geladeira, embalados em sacos de plástico transparente,
+      conservam-se por até dez dias.<br />
+      As melhores condições de armazenamento são entre 0º e 3º C e sob umidade
+      relativa do ar de 90%.<br />
+      Nestas condições, as cabeças conservam-se por várias semanas.
+    </p>
+    <h6>Como Consumir</h6>
+    <p>
+      Deve ser consumido preferencialmente cru. Ao ser cozido, ocorrem perdas
+      de vitaminas e, se comido em excesso, pode provocar gases.
+    </p>
+    <h6>Dicas</h6>
+    <p>
+      Para o seu repolho-roxo não perder a cor ou a textura na hora de
+      refogar, coloque uma colher de sopa de suco de limão ou vinagre na
+      porção a ser refogada. Depois de refogado, não demore muito para
+      retirá-lo do fogo para que ele não murche. Isso vai trazer um aspecto
+      mais vivo para a cor do seu ingrediente.
+    </p>
+    <h6>Propriedades Nutricionais</h6>
+    <p>
+      Rico em nutrientes, o pimentão é fonte de vitaminas A, C, vitaminas do
+      complexo B e minerais, com propriedades antioxidantes que combatem os
+      radicais livres e previnem o envelhecimento precoce. Pode ser consumido
+      cru, assado ou cozido, em diversos pratos quentes e saladas.
+    </p>
+    <h6>Tabela de Informações nutricionais</h6>
+    <p>Porção 88g (1/2 xícara de chá</p>
+    <div class="container mt-3">
+      <table class="table-bordered table-sm table-warning">
+        <thead>
+          <tr>
+            <th>Descrição</th>
+            <th>Quantidade por Porção</th>
+            <th>% VD (*)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Valor Energético</td>
+            <td>15kcal = 63kJ</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Carboidratos</td>
+            <td>3g</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Proteínas</td>
+            <td>1g</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Gorduras totais</td>
+            <td>0g</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Gorduras saturadas</td>
+            <td>0g</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Gorduras trans</td>
+            <td>0g</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Fibra alimentar</td>
+            <td>2g</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Sódio</td>
+            <td>0mg</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <!--fonte-->
-    <br>
-    <h6>  &nbsp; &nbsp; Fonte: <a href="http://www.ceasaminas.com.br/informacoesnutricionaisprodutogeral.asp?ComboProdutos=REPR" target="_blank">CEASAMINAS- Centrais de Abastecimento de Minas Gerais S.A.</a></h6>
-      <!--fonte-->
-    <!--footer-->
-    <footer>
-      <p>Todos os direitos reservados<br />Copyright</p>
-    </footer>
-    <!--footer-->
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-    crossorigin="anonymous"
-  ></script>
+    <p></p>
+    <h6>Receita</h6>
+    <br />
+    <p>
+      <a href="../receitas/receita_salada_repolho.html">Salada de repolho</a>
+    </p>
+    <h6>Precos cotados</h6>
+    <p>Últimos Preços Cotados: <strong>1,50(R$/KG)</strong></p>
+    <h6>Frutas e vegetais similares</h6>
+    <p>Rabanete.</p>
+  </div>
+  <!--fonte-->
+  <br>
+  <h6> &nbsp; &nbsp; Fonte: <a
+      href="http://www.ceasaminas.com.br/informacoesnutricionaisprodutogeral.asp?ComboProdutos=REPR"
+      target="_blank">CEASAMINAS- Centrais de Abastecimento de Minas Gerais S.A.</a></h6>
+  <!--fonte-->
+  <!--footer-->
+  <footer>
+    <p>Todos os direitos reservados<br />Copyright</p>
+  </footer>
+  <!--footer-->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
 </html>

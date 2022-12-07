@@ -1,253 +1,232 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../../css/style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sazoqualidade</title>
-  </head>
 
-  <body>
-    <!--logo-->
-    <div class="logo">
-      <div class="container-fluid">
-        <div class="row justify-content-center">
-          <div class="navBg me-5 d-flex justify-content-center">
-            <a class="logo" href=""
-              ><img
-                src="../../imagens/logo.png"
-                title="logo"
-                alt="logo_saqualidade"
-            /></a>
-          </div>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sazoqualidade</title>
+</head>
+
+<body>
+  <!--logo-->
+  <div class="logo">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="navBg me-5 d-flex justify-content-center">
+          <a class="logo" href=""><img src="../../imagens/logo.png" title="logo" alt="logo_saqualidade" /></a>
         </div>
       </div>
     </div>
-    <!--logo-->
+  </div>
+  <!--logo-->
 
-    <!--menu-->
-    <div class="menu">
-      <nav
-        class="navbar navbar-expand-lg navbar-dark"
-        style="background-color: #ff914d"
-      >
-        <a class="navbar-brand" href="#">
-          <div style="vertical-align: inherit">
-            <div style="vertical-align: inherit"></div>
-          </div>
-        </a>
-        <button
-          class="navbar-toggler collapsed"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarColor01"
-          aria-controls="navbarColor01"
-          aria-expanded="false"
-          aria-label="Alternar de navegação"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarColor01">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="../../index.html#">
-                <div style="vertical-align: inherit">
-                  <div style="vertical-align: inherit">Home</div>
-                </div>
-                <span class="sr-only">
-                  <div style="vertical-align: inherit">
-                    <div style="vertical-align: inherit"></div>
-                  </div>
-                </span>
-              </a>
-            </li>
-            <li class="nav-item active" a>
-              <a class="nav-link" href="../oquee.html">
-                <div style="vertical-align: inherit">
-                  <div style="vertical-align: inherit">O que é?</div>
-                </div>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../alimen_ordem_alf.html">
-                <div style="vertical-align: inherit">
-                  <div style="vertical-align: inherit">Alimentos</div>
-                </div>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../receita_por_alimento.html">
-                <div style="vertical-align: inherit">
-                  <div style="vertical-align: inherit">Receitas</div>
-                </div>
-              </a>
-            </li>
-          </ul>
-          <div id="selecao"></div>
-          <div id="selecionar">
-            <select class="form-select" id="alimento">
-              <option value="0">Selecione o alimento</option>
-              <option value="1">Abobrinha Italiana</option>
-              <option value="2">Banana</option>
-              <option value="3">Pimentão</option>
-              <option value="4">Repolho roxo</option>
-            </select>
-          </div>
-          <div id="botao">
-            <button onclick="redirecionar()" class="btn btn-primary btn-sm">
-              Pesquisar
-            </button>
-          </div>
-          <script>
-            var valor = document.getElementById('alimento');
-
-            function redirecionar() {
-              if (valor.value == '1')
-                window.location.href = 'inf_nut_abobrinhaitaliana.html';
-              else if (valor.value == '2')
-                window.location.href = 'inf_nut_banana.html';
-              else if (valor.value == '3')
-                window.location.href = 'inf_nut_pimentao.html';
-              else if (valor.value == '4')
-                window.location.href = 'inf_nut_repolhoroxo.html';
-              else window.location.href = 'inf_nut_pimentao.html';
-            }
-          </script>
+  <!--menu-->
+  <div class="menu">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ff914d">
+      <a class="navbar-brand" href="#">
+        <div style="vertical-align: inherit">
+          <div style="vertical-align: inherit"></div>
         </div>
-      </nav>
-    </div>
-    <!--menu-->
-    <!--Informações nutricionais-->
-    <div class="container">
-      <h2>Informações Nutricionais</h2>
-      <br />
-      <h5>Produto: Pimentão</h5>
-      <br />
-      <h6>Descrição</h6>
-      <p>
-        O pimentão (Capscum annuum) é um arbusto originário da América Latina,
-        sendo suas formas selvagens encontradas desde o norte do Chile até o
-        México. A ?paprika?, o pimentão desidratado e moído, em forma de pó
-        vermelho, é largamente empregada na indústria de alimentos. Os pimentões
-        são classificados em graúdos (comprimento de 10 cm ou mais), médios
-        (comprimento entre 8 e 10 cm) e miúdos (comprimento entre 6 e 8 cm).
-      </p>
-      <h6>Como Comprar</h6>
-      <p>
-        Escolha os pimentões íntegros, firmes, lustrosos, carnudos e com cabo
-        verde.
-      </p>
-      <h6>Como Conservar</h6>
-      <p>
-        Na geladeira conserva-se por duas a três semanas embrulhado em saco
-        plástico transparente.
-      </p>
-      <h6>Como Consumir</h6>
-      <p>
-        O pimentão pode ser servido como prato principal ou como complemento em
-        saladas, molhos, pratos cozidos, assados e ensopados.
-      </p>
-      <h6>Dicas</h6>
-      <p>
-        Geralmente os pimentões grandes têm sabor adocicado. Os de menor tamanho
-        são picantes.
-      </p>
-      <h6>Propriedades Nutricionais</h6>
-      <p>
-        Quando consumidos verdes e crus, os pimentões são a hortaliça com maior
-        riqueza em vitamina C. Os pimentões vermelhos constituem boa fonte de
-        vitamina A.
-      </p>
-      <h6>Tabela de Informações nutricionais</h6>
-      <p>Porção 71g (1/2 xícara de chá)</p>
-      <div class="container mt-3">
-        <table class="table-bordered table-sm table-warning">
-          <thead>
-            <tr>
-              <th>Descrição</th>
-              <th>Quantidade por Porção</th>
-              <th>% VD (*)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Valor Energético</td>
-              <td>15kcal = 63kJ</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>Carboidratos</td>
-              <td>3g</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>Proteínas</td>
-              <td>1g</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>Gorduras totais</td>
-              <td>0g</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td>Gorduras saturadas</td>
-              <td>0g</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td>Gorduras trans</td>
-              <td>0g</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td>Fibra alimentar</td>
-              <td>2g</td>
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>Sódio</td>
-              <td>0mg</td>
-              <td>0</td>
-            </tr>
-          </tbody>
-        </table>
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Alternar de navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../../index.html#">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">Home</div>
+              </div>
+              <span class="sr-only">
+                <div style="vertical-align: inherit">
+                  <div style="vertical-align: inherit"></div>
+                </div>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item active" a>
+            <a class="nav-link" href="../oquee.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">O que é?</div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../alimen_ordem_alf.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">Alimentos</div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../receita_por_alimento.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">Receitas</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div id="selecao"></div>
+        <div id="selecionar">
+          <select class="form-select" id="alimento">
+            <option value="0">Selecione o alimento</option>
+            <option value="1">Abobrinha Italiana</option>
+            <option value="2">Banana</option>
+            <option value="3">Pimentão</option>
+            <option value="4">Repolho roxo</option>
+          </select>
+        </div>
+        <div id="botao">
+          <button onclick="redirecionar()" class="btn btn-primary btn-sm">
+            Pesquisar
+          </button>
+        </div>
+        <script>
+          var valor = document.getElementById('alimento');
+
+          function redirecionar() {
+            if (valor.value == '1')
+              window.location.href = 'inf_nut_abobrinhaitaliana.html';
+            else if (valor.value == '2')
+              window.location.href = 'inf_nut_banana.html';
+            else if (valor.value == '3')
+              window.location.href = 'inf_nut_pimentao.html';
+            else if (valor.value == '4')
+              window.location.href = 'inf_nut_repolhoroxo.html';
+            else window.location.href = 'inf_nut_pimentao.html';
+          }
+        </script>
       </div>
-      <p></p>
-      <h6>Receita</h6>
-      <br />
-      <p><a href="../receitas/receita_pimentao.html">Pimentão recheado</a></p>
-      <h6>Precos cotados</h6>
-      <p>Últimos Preços Cotados: <strong>5,63R$/KG)</strong></p>
-      <h6>Frutas e vegetais similares</h6>
-      <p>Pepino, jiló, berinjela, batata e tomate. </p>
+    </nav>
+  </div>
+  <!--menu-->
+  <!--Informações nutricionais-->
+  <div class="container">
+    <h2>Informações Nutricionais</h2>
+    <br />
+    <h5>Produto: Pimentão</h5>
+    <br />
+    <h6>Descrição</h6>
+    <p>
+      O pimentão (Capscum annuum) é um arbusto originário da América Latina,
+      sendo suas formas selvagens encontradas desde o norte do Chile até o
+      México. A ?paprika?, o pimentão desidratado e moído, em forma de pó
+      vermelho, é largamente empregada na indústria de alimentos. Os pimentões
+      são classificados em graúdos (comprimento de 10 cm ou mais), médios
+      (comprimento entre 8 e 10 cm) e miúdos (comprimento entre 6 e 8 cm).
+    </p>
+    <h6>Como Comprar</h6>
+    <p>
+      Escolha os pimentões íntegros, firmes, lustrosos, carnudos e com cabo
+      verde.
+    </p>
+    <h6>Como Conservar</h6>
+    <p>
+      Na geladeira conserva-se por duas a três semanas embrulhado em saco
+      plástico transparente.
+    </p>
+    <h6>Como Consumir</h6>
+    <p>
+      O pimentão pode ser servido como prato principal ou como complemento em
+      saladas, molhos, pratos cozidos, assados e ensopados.
+    </p>
+    <h6>Dicas</h6>
+    <p>
+      Geralmente os pimentões grandes têm sabor adocicado. Os de menor tamanho
+      são picantes.
+    </p>
+    <h6>Propriedades Nutricionais</h6>
+    <p>
+      Quando consumidos verdes e crus, os pimentões são a hortaliça com maior
+      riqueza em vitamina C. Os pimentões vermelhos constituem boa fonte de
+      vitamina A.
+    </p>
+    <h6>Tabela de Informações nutricionais</h6>
+    <p>Porção 71g (1/2 xícara de chá)</p>
+    <div class="container mt-3">
+      <table class="table-bordered table-sm table-warning">
+        <thead>
+          <tr>
+            <th>Descrição</th>
+            <th>Quantidade por Porção</th>
+            <th>% VD (*)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Valor Energético</td>
+            <td>15kcal = 63kJ</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Carboidratos</td>
+            <td>3g</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Proteínas</td>
+            <td>1g</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Gorduras totais</td>
+            <td>0g</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Gorduras saturadas</td>
+            <td>0g</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Gorduras trans</td>
+            <td>0g</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Fibra alimentar</td>
+            <td>2g</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Sódio</td>
+            <td>0mg</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <!--fonte-->
-    <br>
-    <h6>  &nbsp; &nbsp; Fonte: <a href="http://www.ceasaminas.com.br/informacoesnutricionaisprodutogeral.asp?ComboProdutos=PIM" target="_blank">CEASAMINAS- Centrais de Abastecimento de Minas Gerais S.A.</a></h6>
-      <!--fonte-->
-    
-    <!--footer-->
-    <footer>
-      <p>Todos os direitos reservados<br />Copyright</p>
-    </footer>
-    <!--footer-->
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-    crossorigin="anonymous"
-  ></script>
+    <p></p>
+    <h6>Receita</h6>
+    <br />
+    <p><a href="../receitas/receita_pimentao.html">Pimentão recheado</a></p>
+    <h6>Precos cotados</h6>
+    <p>Últimos Preços Cotados: <strong>5,63R$/KG)</strong></p>
+    <h6>Frutas e vegetais similares</h6>
+    <p>Pepino, jiló, berinjela, batata e tomate. </p>
+  </div>
+  <!--fonte-->
+  <br>
+  <h6> &nbsp; &nbsp; Fonte: <a
+      href="http://www.ceasaminas.com.br/informacoesnutricionaisprodutogeral.asp?ComboProdutos=PIM"
+      target="_blank">CEASAMINAS- Centrais de Abastecimento de Minas Gerais S.A.</a></h6>
+  <!--fonte-->
+
+  <!--footer-->
+  <footer>
+    <p>Todos os direitos reservados<br />Copyright</p>
+  </footer>
+  <!--footer-->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
 </html>

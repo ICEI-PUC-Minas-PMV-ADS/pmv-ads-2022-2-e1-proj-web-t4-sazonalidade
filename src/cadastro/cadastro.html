@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sazoqualidade</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/style.css" />
+
+
+<body onload="init()">
+  <!--logo-->
+  <div class="logo">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="navBg me-5 d-flex justify-content-center">
+          <a class="logo" href=""><img src="../imagens/logo.png" title="logo" alt="logo_saqualidade" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--logo-->
+
+  <!--menu-->
+  <div class="menu">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ff914d">
+      <a class="navbar-brand" href="#">
+        <div style="vertical-align: inherit">
+          <div style="vertical-align: inherit"></div>
+        </div>
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Alternar de navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">Home</div>
+              </div>
+              <span class="sr-only">
+                <div style="vertical-align: inherit">
+                  <div style="vertical-align: inherit"></div>
+                </div>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item active" a>
+            <a class="nav-link" href="oquee.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">O que é?</div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="alimen_ordem_alf.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">Alimentos</div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="receita_por_alimento.html">
+              <div style="vertical-align: inherit">
+                <div style="vertical-align: inherit">Receitas</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div id="selecao"></div>
+        <div id="selecionar">
+          <select class="form-select" id="alimento">
+            <option value="0">Selecione o alimento</option>
+            <option value="1">Abobrinha Italiana</option>
+            <option value="2">Banana</option>
+            <option value="3">Pimentão</option>
+            <option value="4">Repolho roxo</option>
+          </select>
+        </div>
+        <div id="botao">
+          <button onclick="redirecionar()" class="btn btn-primary btn-sm">
+            Pesquisar
+          </button>
+        </div>
+        <script>
+          var valor = document.getElementById('alimento');
+
+          function redirecionar() {
+            if (valor.value == '1')
+              window.location.href =
+                '../paginas/infor_nutricionais/inf_nut_abobrinhaitaliana.html';
+            else if (valor.value == '2')
+              window.location.href = '../paginas/infor_nutricionais/inf_nut_banana.html';
+            else if (valor.value == '3')
+              window.location.href =
+                '../paginas/infor_nutricionais/inf_nut_pimentao.html';
+            else if (valor.value == '4')
+              window.location.href =
+                '../paginas/infor_nutricionais/inf_nut_repolhoroxo.html';
+            else window.location.href = 'receita_por_alimento.html';
+          }
+        </script>
+      </div>
+    </nav>
+  </div>
+  <h2>Cadastro de Preços</h2>
+
+  <div class="container">
+    <div class="row">
+      <div id="msg" class="col-sm-10 offset-sm-1 ">
+        <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+      </div>
+    </div>
+
+    <form id="form-contato">
+      <div class="form-group row">
+        <div class="col-sm-4">
+          <label for="inputId">Id</label>
+          <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+        </div>
+        <div class="col-sm-8">
+          <label for="inputNome">Alimento(*)</label>
+          <input type="text" class="form-control" id="inputNome" required placeholder="Informe o alimento">
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-5">
+          <label for="inputTelefone">Categoria(*)</label>
+          <input type="text" class="form-control" id="inputTelefone" required placeholder="Informe o tipo">
+        </div>
+        <div class="col-sm-7">
+          <label for="inputEmail">Preço</label>
+          <input type="text" class="form-control" id="inputEmail" required placeholder="Informe o preço">
+        </div>
+      </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-4">
+      <small>(*) Campos obrigatórios</small>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+      <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+      <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+      <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
+    </div>
+  </div>
+  </form>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <table id="grid-contatos" class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Alimento</th>
+            <th scope="col">Categoria</th>
+            <th scope="col">Preço</th>
+          </tr>
+        </thead>
+        <tbody id="table-contatos">
+          <tr>
+            <td scope="row">1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="app.js"></script>
+  <script>
+    function exibeContatos() {
+      // Remove todas as linhas do corpo da tabela
+      $("#table-contatos").html("");
+
+      // Popula a tabela com os registros do banco de dados
+      for (i = 0; i < db.data.length; i++) {
+        let contato = db.data[i];
+        $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                                <td>${contato.nome}</td>
+                                                <td>${contato.telefone}</td>
+                                                <td>${contato.email}</td>
+                                              
+                                            </tr>`);
+      }
+    }
+
+    function init() {
+      // Adiciona funções para tratar os eventos 
+      $("#btnInsert").click(function () {
+        // Verfica se o formulário está preenchido corretamente
+        if (!$('#form-contato')[0].checkValidity()) {
+          displayMessage("Preencha o formulário corretamente.");
+          return;
+        }
+
+        // Obtem os valores dos campos do formulário
+        let campoNome = $("#inputNome").val();
+        let campoTelefone = $("#inputTelefone").val();
+        let campoEmail = $('#inputEmail').val();
+        let campoCidade = $("#inputCidade").val();
+        let campoCategoria = $('#inputCategoria').val();
+        let campoSite = $('#inputSite').val();
+        let contato = {
+          nome: campoNome,
+          telefone: campoTelefone,
+          email: campoEmail,
+          cidade: campoCidade,
+          categoria: campoCategoria,
+          website: campoSite
+        };
+
+        insertContato(contato);
+
+        // Reexibe os contatos
+        exibeContatos();
+
+        // Limpa o formulario
+        $("#form-contato")[0].reset();
+      });
+
+      // Intercepta o click do botão Alterar
+      $("#btnUpdate").click(function () {
+        // Obtem os valores dos campos do formulário
+        let campoId = $("#inputId").val();
+        if (campoId == "") {
+          displayMessage("Selecione um contato para ser alterado.");
+          return;
+        }
+        let campoNome = $("#inputNome").val();
+        let campoTelefone = $("#inputTelefone").val();
+        let campoEmail = $("#inputEmail").val();
+        let campoCidade = $("#inputCidade").val();
+        let campoCategoria = $("#inputCategoria").val();
+        let campoSite = $('#inputSite').val();
+        let contato = {
+          nome: campoNome,
+          telefone: campoTelefone,
+          email: campoEmail,
+          cidade: campoCidade,
+          categoria: campoCategoria,
+          website: campoSite
+        };
+
+        updateContato(parseInt(campoId), contato);
+
+        // Reexibe os contatos
+        exibeContatos();
+
+        // Limpa o formulario
+        $("#form-contato")[0].reset();
+      });
+
+      // Intercepta o click do botão Excluir
+      $("#btnDelete").click(function () {
+        let campoId = $("#inputId").val();
+        if (campoId == "") {
+          displayMessage("Selecione um contato a ser excluído.");
+          return;
+        }
+        deleteContato(parseInt(campoId));
+
+        // Reexibe os contatos
+        exibeContatos();
+
+        // Limpa o formulario
+        $("#form-contato")[0].reset();
+      });
+
+      // Intercepta o click do botão Listar Contatos
+      $("#btnClear").click(function () {
+        $("#form-contato")[0].reset();
+      });
+
+      // Oculta a mensagem de aviso após alguns segundos
+      $('#msg').bind("DOMSubtreeModified", function () {
+        window.setTimeout(function () {
+          $(".alert").fadeTo(500, 0).slideUp(500, function () {
+            $(this).remove();
+          });
+        }, 5000);
+      });
+
+      // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+      $("#grid-contatos").on("click", "tr", function (e) {
+        let linhaContato = this;
+        colunas = linhaContato.querySelectorAll("td");
+
+        $("#inputId").val(colunas[0].innerText);
+        $("#inputNome").val(colunas[1].innerText);
+        $("#inputTelefone").val(colunas[2].innerText);
+        $("#inputEmail").val(colunas[3].innerText);
+        $("#inputCidade").val(colunas[4].innerText);
+        $("#inputCategoria").val(colunas[5].innerText);
+        $("#inputSite").val(colunas[6].innerText);
+      });
+
+      exibeContatos();
+    }
+  </script>
+
+  <!--footer-->
+  <footer>
+    <p>Todos os direitos reservados<br />Copyright</p>
+  </footer>
+  <!--footer-->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</html>
