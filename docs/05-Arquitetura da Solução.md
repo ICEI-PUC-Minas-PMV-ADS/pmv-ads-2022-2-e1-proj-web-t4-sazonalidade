@@ -31,3 +31,11 @@ A solução implementada conta com os seguintes módulos:
 ## Tecnologias Utilizadas
 
 ## Hospedagem
+
+O site utiliza a plataforma do Heroku como ambiente de hospedagem do site do projeto. O 
+site é mantido no ambiente da URL: 
+https://sazoqualidade.herokuapp.com/
+A publicação do site no Heroku é feita por meio de uma submissão do projeto (push) via git 
+para o repositório remoto que se encontra no endereço: 
+https://sazoqualidade.herokuapp.com/
+
