@@ -8,6 +8,9 @@ Projeto: Desenvolvimento de Aplicação Web Front-End
 
 Desensolvimento de um portal sobre informações de alimentos baseado na sazonalidade. Ou seja, qual o melhor alimento comprar levando em consideração a safra dos alimentos. O portal contará também com informações nutricionais, dicas de conservação, receitas e substituições possíveis de determinados alimentos.
 
+![Sazoqualidade (Logotipo) (1)](https://user-images.githubusercontent.com/114542015/206936668-5685a765-a0c8-4be6-9573-4a465934e41b.png)
+
+
 ## Integrantes
 
 - Amanda Ramires Guimarães Brito
